@@ -1,0 +1,81 @@
+.page {
+    padding-left: 50px;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.dishname {
+}
+
+.imageurl {
+
+}
+
+.flavor {
+
+}
+
+.description {
+    width: 100%;
+    height: 150px;
+    font-size: 18px;
+    font-family: arial, 微软雅黑;
+}
+
+.button_submit {
+}
+
+.userinformation_content {
+    padding-left: 20px;
+}
+
+.person_page {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.self_intro_content {
+    padding-left: 20px;
+}
+
+.self_intro {
+    background-color : rgb(255,255,255,1);
+    width: 100%;
+    height: 90px;
+}
+
+.line_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.text1 {
+    width: 90px;
+    font-size: 18px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 17px;
+    color: rgb(0,0,0,0.8);
+}
+
+.tianjia {
+    padding-left: 5px;
+}
+
+.dishpage {
+    width: 100%;
+}

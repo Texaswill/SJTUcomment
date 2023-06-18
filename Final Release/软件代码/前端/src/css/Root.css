@@ -1,0 +1,61 @@
+.TopstoryPageHeader {
+    height: 80px;
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(255, 255, 255, 1) ;
+}
+
+.TopstoryPageHeader,.TopstoryPageHeader-main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.Logo {
+    font-size:40px;
+    font-family:幼圆;
+    font-weight: bolder;
+}
+
+.TopstoryTabs {
+    display: flex;
+        justify-content: right;
+        align-items: center;
+    height: 58px;
+    width: 120px;
+}
+
+.TopstoryTabs-link{
+    font-size: 18px;
+    margin: 0 22px
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.icon_container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_name{
+    color: rgb(255,255,255,1);
+    font-size:15px;
+    font-family: 幼圆;
+    font-weight: normal;
+}
+
+
+.picture {
+    width: 100%;
+    height: 100%;
+}

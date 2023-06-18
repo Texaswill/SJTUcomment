@@ -1,0 +1,67 @@
+create table jddp.dish
+(
+    dish_id     int auto_increment
+        primary key,
+    name        varchar(255) null,
+    description varchar(255) null,
+    flavor      varchar(255) null,
+    price       int          null,
+    location    int          null,
+    type        int          null,
+    taste       int          null,
+    cos         double       null,
+    img_url     varchar(500) null,
+    hot         int          null,
+    time        int          null
+);
+
+create table jddp.comments
+(
+    comment_id int auto_increment
+        primary key,
+    user_id    int           not null,
+    content    varchar(1000) not null,
+    rate       int           not null,
+    time_stamp mediumtext    not null,
+    likes      int default 0 null,
+    dish_id    int           not null,
+    pic_url    varchar(1008) null,
+    constraint dish_id
+        foreign key (dish_id) references jddp.dish (dish_id)
+);
+
+create table jddp.spring_session
+(
+    ID                    varchar(255) not null
+        primary key,
+    SESSION_ID            varchar(255) not null,
+    CREATION_TIME         bigint       not null,
+    LAST_ACCESS_TIME      bigint       not null,
+    MAX_INACTIVE_INTERVAL int          not null,
+    EXPIRY_TIME           bigint       not null,
+    PRINCIPAL_NAME        varchar(100) null,
+    SESSION               longblob     null
+)
+    collate = utf8mb4_general_ci;
+
+create table jddp.user
+(
+    user_id  int auto_increment
+        primary key,
+    username varchar(255)  null,
+    password varchar(255)  null,
+    price    int default 0 null,
+    location int default 0 null,
+    type     int default 0 null,
+    taste    int default 0 null,
+    intro    varchar(1000) null
+);
+
+create table jddp.userauth
+(
+    auth_id int auto_increment
+        primary key,
+    user_id int null,
+    role    int null
+);
+

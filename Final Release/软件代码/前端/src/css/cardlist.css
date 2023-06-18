@@ -1,0 +1,135 @@
+.card-list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+    border-bottom: 2px solid #dc3d00;
+    height: 100%;
+}
+
+.card-list-title {
+    float: left;
+    font-size:30px;
+    text-align: center;
+    font-family:微软雅黑;
+    color: white;
+    background: #dc3d00;
+    width:300px;
+}
+
+.card-list-sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    width: 400px;
+    background: #FFFFFF;
+}
+
+.card-list-content {
+
+}
+
+.card-list {
+
+}
+
+.button {
+    width: 270px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    font-family: Microsoft YaHei;
+    color: #dc3d00;
+    font-size: 17px;
+}
+
+.picture-content {
+    height: 250px;
+    width: 400px;
+}
+
+.picture {
+    height: 250px;
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 250px;
+    padding-left: 30px;
+}
+
+.card-item-content {
+    width: 1300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.card-item-body {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-item-title {
+    font-family: Microsoft YaHei;
+    font-size: 30px;
+}
+
+.title-location-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 800px;
+    height: 80px;
+}
+
+.card-item-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 600px;
+    font-family: 宋体;
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+}
+
+.location-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.card-item-price {
+    font-size: 25px;
+    color: #dc3d00;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+    width: 120px;
+}
+/*
+.recommend-page{
+    width: 1600px;
+    height: 600px;
+}*/

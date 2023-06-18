@@ -1,0 +1,59 @@
+.detail-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+}
+
+.dish-detail-container {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.img-container {
+    height: 400px;
+    width: 750px;
+}
+
+.img{
+    height: 400px;
+    width: 750px;
+}
+
+.img-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.dish-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.dish-info {
+    height: 200px;
+    width: 100%;
+    padding-left: 150px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.address {
+    font-size: 20px;
+}
+
+.tag {
+    font-size: 18px;
+}
